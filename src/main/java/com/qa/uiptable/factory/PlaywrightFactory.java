@@ -28,6 +28,10 @@ public class PlaywrightFactory {
          case "edge":
              browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("msedge").setHeadless(false));
              break;
+             
+         case "edge":
+             browser = playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("msedge").setHeadless(false));
+             break;
          default:
              throw new IllegalArgumentException("Please pass the right browser name...");
      }

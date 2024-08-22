@@ -37,6 +37,14 @@ public class HomePageTest {
 		
 		
 	}
+	@Test
+	public void creatingGroup() throws InterruptedException
+	{
+		String Actualdatagropby=homePage.createGroup();
+		Assert.assertEquals(Actualdatagropby,"Name" );
+		
+		
+	}
 	/*@AfterTest
 	public void tearDown()
 	{
