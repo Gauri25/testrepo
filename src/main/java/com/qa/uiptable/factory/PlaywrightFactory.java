@@ -54,9 +54,7 @@ public class PlaywrightFactory {
 	        if (browser != null) {
 	            browser.close();
 	        }
-	        if (playwright != null) {
-	            playwright.close();
-	        }
+	      
 	    }
 	
 }
